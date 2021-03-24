@@ -1,0 +1,22 @@
+.modal-size-l{
+  max-width: 690px;
+  .modal-content{
+    padding: 16px 24 40px 24px;
+  }
+}
+@include media-breakpoint-up(md){
+  .modal-size-l{
+    max-width: 690px;
+    .modal-content{
+      padding: 60px 60px 48px 60px;
+    }
+  }
+}
+@include media-breakpoint-up(lg){
+  .modal-size-l{
+    max-width: 920px;
+    .modal-content{
+      padding: 60px 30px 48px 30px;
+    }
+  }
+}

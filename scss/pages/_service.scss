@@ -1,0 +1,23 @@
+.time-line::before{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  right: 15px;
+  border-bottom: 2px solid $secondary;
+}
+.service-img{
+  background-image: url('https://hexschool.github.io/webLayoutTraining1st/petpet-week8/homestay-3.jpeg');
+  height: 100px;
+}
+@include media-breakpoint-up(md){
+  .service-img{
+    height: 151px;
+  }
+}
+@include media-breakpoint-up(lg){
+  .service-img{
+    height: 282px;
+  }
+}

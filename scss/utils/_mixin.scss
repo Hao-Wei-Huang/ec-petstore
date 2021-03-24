@@ -1,0 +1,13 @@
+@mixin text-hide {
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+@mixin bg-cover {
+    background-size: cover;
+    background-position: center;
+}
+@mixin bg-contain {
+    background-size: contain;
+    background-position: center;
+}

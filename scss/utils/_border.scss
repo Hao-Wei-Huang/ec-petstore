@@ -1,0 +1,17 @@
+.border-width-xs{
+  border-width: 2px !important; 
+}
+.border-width-s{
+  border-width: 3px !important; 
+}
+.border-width-l{
+  border-width: 5px !important; 
+}
+.border-radius-l{
+  border-radius: 4px !important; 
+}
+@include media-breakpoint-up(md){
+  .border-md-0{
+    border-width: 0px !important;
+  }
+}

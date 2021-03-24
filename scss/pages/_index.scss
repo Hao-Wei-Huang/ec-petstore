@@ -1,0 +1,23 @@
+.banner-image{
+  background-image: url('https://hexschool.github.io/webLayoutTraining1st/petpet-week8/index-1.png');
+  height: 450px;
+}
+@include media-breakpoint-up(md){
+  .banner-image{
+    height: 288px;
+  }
+}
+@include media-breakpoint-up(lg){
+  .banner-image{
+    height: 736px;
+  }
+}
+@include media-breakpoint-up(lg){
+  .banner-content{
+    height: 736px;
+  }
+}
+.arrow-dowm{
+  width: 44px;
+  height: 44px;
+}

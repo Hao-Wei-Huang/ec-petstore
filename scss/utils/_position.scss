@@ -1,0 +1,26 @@
+.position-top-0{
+  top:0px
+}
+.position-bottom-0{
+  bottom:0px
+}
+.position-bottom-l{
+  bottom: -50px;
+}
+.position-right-0{
+  right: 0px;
+}
+.position-left-0{
+  left: 0px;
+}
+.position-right-l{
+  right: calc(50% - 50px);
+}
+@include media-breakpoint-up(lg){
+  .position-lg-absolute{
+    position: absolute;
+  }
+  .position-lg-fixed{
+    position: fixed;
+  }
+}
