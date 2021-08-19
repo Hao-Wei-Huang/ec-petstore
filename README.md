@@ -2,7 +2,7 @@
 
 使用技術：
 * BS4 + SCSS 客製化及規劃響應式網頁
-* 頁面動畫
+* 導入 aos 套件動畫
 
 Demo : https://hao-wei-huang.github.io/ec-petstore/
 
